@@ -22,16 +22,17 @@ The code supports reproduction of the main results presented in:
 
 ### Repository Structure
 
+```text
 .
-├── Data/        % Input datasets
-│   ├── Macro/   % Macroscale data
-│   ├── Meso_1/  % Mesoscale dataset 
-│   ├── Meso_2/  % Mesoscale dataset 
-│   ├── Meso_3/  % Mesoscale dataset
-│   ├── Meso_4/  % Mesoscale dataset 
-│   └── Micro/   % Microscale data
+├── Data/        # Input datasets
+│   ├── Macro/   # Macroscale data
+│   ├── Meso_1/  # Mesoscale dataset
+│   ├── Meso_2/  # Mesoscale dataset
+│   ├── Meso_3/  # Mesoscale dataset
+│   ├── Meso_4/  # Mesoscale dataset
+│   └── Micro/   # Microscale data
 └── README.md
-
+```
 ---
 
 ## Requirements
@@ -46,23 +47,14 @@ The code supports reproduction of the main results presented in:
 
 1. Clone the repository:
 
-```bash
-git clone https://github.com/yourname/yourrepo.git
-```
 
 2. Open MATLAB and set the working directory:
 
-```matlab
-cd('yourrepo')
-```
+
 
 3. Run example scripts:
 
-```matlab
-run('microscale/demo_fd.m')           % Microscale FD analysis
-run('mesoscale/demo_detection.m')     % Mesoscale defect detection
-run('macroscale/demo_reconstruction.m') % Macroscale reconstruction
-```
+
 
 ---
 
@@ -71,7 +63,7 @@ run('macroscale/demo_reconstruction.m') % Macroscale reconstruction
 ### Microscale (Burr Characterization)
 
 * Fractal Dimension (FD) is used to quantify burr morphology
-* Includes binarization, contour extraction, and box-counting method
+* Includes binarization, contour extraction, and the box-counting method
 * Sensitivity to threshold and noise can be evaluated
 
 ### Mesoscale (Defect Detection)
@@ -108,10 +100,10 @@ Notes:
 
 The following scripts correspond to representative results in the paper:
 
-* Fig. X → `microscale/demo_fd.m`
-* Fig. X → `mesoscale/demo_tearing.m`
-* Fig. X → `mesoscale/demo_crushing.m`
-* Fig. X → `macroscale/demo_surface.m`
+* Fig. 10 → `microscale/demo_fd.m`
+* Fig. 11 → `mesoscale/demo_tearing.m`
+* Fig. 12 → `mesoscale/demo_crushing.m`
+* Fig. 14 → `macroscale/demo_surface.m`
 
 Due to stochastic factors (e.g., threshold selection, noise), minor variations in numerical results may occur.
 
@@ -126,7 +118,7 @@ Due to stochastic factors (e.g., threshold selection, noise), minor variations i
 
 ## Citation
 
-If you find this work useful, please cite.
+If you find this work useful, please cite it.
 
 ## License
 
