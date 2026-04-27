@@ -1,5 +1,4 @@
 # SLC_Honeycomb
-# Unified Multi-Scale Defect Measurement Framework
 
 This repository provides the implementation of a unified measurement framework for defect characterization across micro-, meso-, and macro-scales in discontinuous honeycomb structures. The framework is based on a structured light imaging system and supports consistent data acquisition and analysis within a unified coordinate system.
 
