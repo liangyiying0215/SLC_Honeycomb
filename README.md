@@ -23,7 +23,7 @@ The code supports reproduction of the main results presented in:
 ### Repository Structure
 
 ```text
-.
+
 ├── Data/        # Input datasets
 │   ├── Macro/   # Macroscale data
 │   ├── Meso_1/  # Mesoscale dataset
