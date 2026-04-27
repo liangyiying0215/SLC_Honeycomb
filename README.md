@@ -9,6 +9,7 @@ This repository provides the implementation of a unified measurement framework f
 This repository accompanies the following paper:
 
 **[A multi-scale structured-light camera system for quantifying machining quality of honeycomb composites]**
+
 *IEEE Transactions on Instrumentation and Measurement* (under review)
 
 The code supports reproduction of the main results presented in:
@@ -19,17 +20,17 @@ The code supports reproduction of the main results presented in:
 
 ---
 
-## Repository Structure
+### Repository Structure
 
-```
 .
-├── microscale/        % Fractal dimension (FD) computation and analysis
-├── mesoscale/         % Defect detection and evaluation
-├── macroscale/        % Surface reconstruction and fitting
-├── data/              % Example datasets
-├── results/           % Example outputs corresponding to paper figures
-└── utils/             % Auxiliary functions
-```
+├── Data/        % Input datasets
+│   ├── Macro/   % Macroscale data
+│   ├── Meso_1/  % Mesoscale dataset 
+│   ├── Meso_2/  % Mesoscale dataset 
+│   ├── Meso_3/  % Mesoscale dataset
+│   ├── Meso_4/  % Mesoscale dataset 
+│   └── Micro/   % Microscale data
+└── README.md
 
 ---
 
